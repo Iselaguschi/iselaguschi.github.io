@@ -15,8 +15,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="icon-144x144.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/icons/icon-144x144.png">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/favicon.ico">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -32,14 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icon-152x152.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/icons/icon-152x152.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -102,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>titleT</find>
       <find>user</find>
       <find>HTTP_USER_AGENT</find>
       <find>opa</find>
@@ -132,6 +134,7 @@
       <find>getA</find>
       <find>updateFor</find>
       <find>updateFinances</find>
+      <find>favico</find>
     </findStrings>
     <replaceStrings>
       <replace>candlestickChartData</replace>
@@ -178,11 +181,11 @@
         <option value="&lt;b1123aea-c165-4272-93e7-871c6def0e16&gt;/sketch-shirt.com/wp-content/themes/understrap/inc/FINN-newsletter_new_user.php" />
         <option value="$PROJECT_DIR$/temp.php" />
         <option value="$PROJECT_DIR$/scripts/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/service-worker.js" />
         <option value="$PROJECT_DIR$/scripts/fk-expense-tracker-main.js" />
         <option value="$PROJECT_DIR$/manifest.webapp" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -412,12 +415,12 @@
       <workItem from="1499536564572" duration="1247000" />
       <workItem from="1499553513940" duration="43000" />
       <workItem from="1500407210799" duration="5201000" />
-      <workItem from="1500482968580" duration="3881000" />
+      <workItem from="1500482968580" duration="4082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44708000" />
+    <option name="totallyTimeSpent" value="44909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -586,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" column="74" lean-forward="false" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -620,11 +615,6 @@
             <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/touch/apple-touch-icon.png">
@@ -694,6 +684,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
       </provider>
