@@ -23,7 +23,7 @@
 
     document.getElementById('butRefresh').addEventListener('click', function () {
         // Refresh all of the forecasts
-        // app.updateFinances();
+        app.updateFinances();
     });
 
     document.getElementById('butAdd').addEventListener('click', function () {
