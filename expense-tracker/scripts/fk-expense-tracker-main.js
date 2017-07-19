@@ -77,6 +77,7 @@
         var accountKey = data.key;
 
         var card = app.visibleCards[data.key];
+        console.log("creating card...");
         if (!card) {
             card = app.cardTemplate.cloneNode(true);
             card.classList.remove('cardTemplate');
