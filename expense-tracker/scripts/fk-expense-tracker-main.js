@@ -43,6 +43,7 @@
         }
         app.selectedAccounts.push({key: key, label: label});
         var data = JSON.stringify(app.selectedAccounts[key-1]);
+        console.log(app.selectedAccounts[key-1]);
         console.log("data:" + data);
         console.log(data.label);
         app.updateForecastCard(data);
