@@ -1,22 +1,8 @@
 var cacheName = 'weatherPWA-step-6-3';
 var filesToCache = [
-    '/pwa/work/',
-    '/pwa/work/index.html',
-    '/pwa/work/scripts/app.js',
-    '/pwa/work/styles/inline.css',
-    '/pwa/work/images/clear.png',
-    '/pwa/work/images/cloudy-scattered-showers.png',
-    '/pwa/work/images/cloudy.png',
-    '/pwa/work/images/fog.png',
-    '/pwa/work/images/ic_add_white_24px.svg',
-    '/pwa/work/images/ic_refresh_white_24px.svg',
-    '/pwa/work/images/partly-cloudy.png',
-    '/pwa/work/images/rain.png',
-    '/pwa/work/images/scattered-showers.png',
-    '/pwa/work/images/sleet.png',
-    '/pwa/work/images/snow.png',
-    '/pwa/work/images/thunderstorm.png',
-    '/pwa/work/images/wind.png'
+    '/styles/',
+    'index.html',
+    '/scripts/fk-expense-tracker-main.js'
 ];
 
 /*

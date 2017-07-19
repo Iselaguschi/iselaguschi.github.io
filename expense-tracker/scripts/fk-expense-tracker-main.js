@@ -124,7 +124,7 @@
         var selectedAccounts = JSON.stringify(app.selectedAccounts);
         localStorage.selectedAccounts = selectedAccounts;
     };
-    
+
     app.updateFinances = function() {
         app.getAccountData();
     }

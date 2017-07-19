@@ -47,14 +47,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fk-expense-tracker-main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fk-expense-tracker-main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/fk-expense-tracker-main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="126" column="4" lean-forward="false" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
+              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service-worker.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-worker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,7 +151,6 @@
       <list>
         <option value="&lt;d853e359-a485-4290-8efa-30183dae9015&gt;/WordPress_02/wp-content/themes/adrianrobst-theme/template-parts/chartscript.php" />
         <option value="&lt;d853e359-a485-4290-8efa-30183dae9015&gt;/WordPress_02/wp-content/themes/adrianrobst-theme/template-parts/contentinvest.php" />
-        <option value="$PROJECT_DIR$/service-worker.js" />
         <option value="&lt;d853e359-a485-4290-8efa-30183dae9015&gt;/WordPress_02/wp-content/themes/adrianrobst-theme/front-page.php" />
         <option value="&lt;b1123aea-c165-4272-93e7-871c6def0e16&gt;/sketch-shirt.com/wp-content/themes/understrap/global-templates/drawer.php" />
         <option value="&lt;d853e359-a485-4290-8efa-30183dae9015&gt;/WordPress_02/wp-content/themes/himalayas/js/jquery.nav.js" />
@@ -179,6 +188,7 @@
         <option value="$PROJECT_DIR$/scripts/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/fk-expense-tracker-main.js" />
+        <option value="$PROJECT_DIR$/service-worker.js" />
       </list>
     </option>
   </component>
@@ -357,12 +367,12 @@
       <workItem from="1499536564572" duration="1247000" />
       <workItem from="1499553513940" duration="43000" />
       <workItem from="1500407210799" duration="5201000" />
-      <workItem from="1500482968580" duration="225000" />
+      <workItem from="1500482968580" duration="371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41052000" />
+    <option name="totallyTimeSpent" value="41198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -515,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.webapp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -575,10 +578,18 @@
     <entry file="file://$PROJECT_DIR$/scripts/fk-expense-tracker-main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="126" column="4" lean-forward="false" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
