@@ -42,10 +42,7 @@
             app.selectedAccounts = [];
         }
         app.selectedAccounts.push({key: key, label: label});
-        var data = JSON.stringify(app.selectedAccounts[key-1]);
-        console.log(app.selectedAccounts[key-1]);
-        console.log("data:" + data);
-        console.log(data.label);
+        var data = app.selectedAccounts[key-1];
         app.updateForecastCard(data);
         app.saveSelectedAccounts();
         app.toggleAddDialog(false);
@@ -84,8 +81,6 @@
             card = app.cardTemplate.cloneNode(true);
             card.classList.remove('cardTemplate');
             card.querySelector('.account-name').textContent = accountName;
-            // console.log(data.label);
-            // console.log(accountName);
             card.querySelector('.account-key').textContent = accountKey;
             card.removeAttribute('hidden');
             app.container.appendChild(card);
