@@ -124,12 +124,30 @@
         var selectedAccounts = JSON.stringify(app.selectedAccounts);
         localStorage.selectedAccounts = selectedAccounts;
     };
+    
+    app.updateFinances = function() {
+        app.getAccountData();
+    }
 
-    // TODO updateFinances()
-
-    // TODO getAccountData()
-
-    app.getAccountData = function(key, label) {
+    app.getAccountData = function() {
+        app.selectedAccounts = localStorage.selectedAccounts;
+        if (app.selectedAccounts) {
+            app.selectedAccounts = JSON.parse(app.selectedAccounts);
+            app.selectedAccounts.forEach(function (account) {
+                app.updateForecastCard(account);
+            });
+        } else {
+            /* The user is using the app for the first time, or the user has not
+             * saved any cities, so show the user some fake data. A real app in this
+             * scenario could guess the user's location via IP lookup and then inject
+             * that data into the page.
+             */
+            app.updateForecastCard(initialAccountData);
+            app.selectedAccounts = [
+                {key: initialAccountData.key, label: initialAccountData.label}
+            ];
+            app.saveSelectedAccounts();
+        }
     };
 
     // TODO toggleAddDialog(bool)
@@ -156,24 +174,7 @@
      *   SimpleDB (https://gist.github.com/inexorabletash/c8069c042b734519680c)
      ************************************************************************/
 
-    app.selectedAccounts = localStorage.selectedAccounts;
-    if (app.selectedAccounts) {
-        app.selectedAccounts = JSON.parse(app.selectedAccounts);
-        app.selectedAccounts.forEach(function (account) {
-            app.updateForecastCard(account);
-        });
-    } else {
-        /* The user is using the app for the first time, or the user has not
-         * saved any cities, so show the user some fake data. A real app in this
-         * scenario could guess the user's location via IP lookup and then inject
-         * that data into the page.
-         */
-        app.updateForecastCard(initialAccountData);
-        app.selectedAccounts = [
-            {key: initialAccountData.key, label: initialAccountData.label}
-        ];
-        app.saveSelectedAccounts();
-    }
+    app.getAccountData();
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
