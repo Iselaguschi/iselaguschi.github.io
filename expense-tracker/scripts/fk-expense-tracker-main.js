@@ -80,7 +80,8 @@
         if (!card) {
             card = app.cardTemplate.cloneNode(true);
             card.classList.remove('cardTemplate');
-            card.querySelector('.account-name').textContent = data.label;
+            card.querySelector('.account-name').textContent = accountName;
+            card.querySelector('.account-key').textContent = accountKey;
             card.removeAttribute('hidden');
             app.container.appendChild(card);
             app.visibleCards[data.key] = card;
@@ -131,7 +132,6 @@
 
     app.getAccountData = function() {
         console.log("refresh");
-        alert("d");
         app.selectedAccounts = localStorage.selectedAccounts;
         if (app.selectedAccounts) {
             app.selectedAccounts = JSON.parse(app.selectedAccounts);
