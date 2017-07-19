@@ -152,8 +152,6 @@
         }
     };
 
-    // TODO toggleAddDialog(bool)
-
     /*
      * Fake weather data that is presented when the user first uses the app,
      * or when the user has not saved any cities. See startup code for more

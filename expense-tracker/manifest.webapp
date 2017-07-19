@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "name": "Web Starter Kit",
-  "launch_path": "/index.html",
-  "description": "A front-end template that helps you build fast, modern mobile web apps.",
+  "name": "Expense Tracking",
+  "launch_path": "index.html",
+  "description": "App, in der du einfach deine Einnahmen und Ausgaben dokumentieren kannst.",
   "icons": {
-    "128": "/images/touch/icon-128x128.png"
+    "128": "/images/touch/Wallet.png"
   },
   "developer": {
     "name": "",
@@ -13,13 +13,13 @@
   "installs_allowed_from": [
     "*"
   ],
-  "default_locale": "en",
+  "default_locale": "de",
   "permissions": {
   },
   "locales": {
-    "en": {
-      "name": "Web Starter Kit",
-      "description": "A front-end template that helps you build fast, modern mobile web apps."
+    "de": {
+      "name": "Expense Tracking",
+      "description": "App, in der du einfach deine Einnahmen und Ausgaben dokumentieren kannst."
     }
   }
 }
