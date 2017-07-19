@@ -83,8 +83,8 @@
             card = app.cardTemplate.cloneNode(true);
             card.classList.remove('cardTemplate');
             card.querySelector('.account-name').textContent = accountName;
-            console.log(data.label);
-            console.log(accountName);
+            // console.log(data.label);
+            // console.log(accountName);
             card.querySelector('.account-key').textContent = accountKey;
             card.removeAttribute('hidden');
             app.container.appendChild(card);
