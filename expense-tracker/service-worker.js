@@ -1,8 +1,8 @@
 var cacheName = 'weatherPWA-step-6-3';
 var filesToCache = [
-    '/styles/',
+    'styles/',
     'index.html',
-    '/scripts/fk-expense-tracker-main.js'
+    'scripts/fk-expense-tracker-main.js'
 ];
 
 /*
