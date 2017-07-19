@@ -127,10 +127,11 @@
 
     app.updateFinances = function() {
         app.getAccountData();
-    }
+    };
 
     app.getAccountData = function() {
         console.log("refresh");
+        alert("d");
         app.selectedAccounts = localStorage.selectedAccounts;
         if (app.selectedAccounts) {
             app.selectedAccounts = JSON.parse(app.selectedAccounts);
