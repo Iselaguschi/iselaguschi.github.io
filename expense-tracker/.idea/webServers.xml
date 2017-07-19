@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d853e359-a485-4290-8efa-30183dae9015" name="AdrianR" url="http://ftp.strato.de">
+        <fileTransfer host="ftp.strato.de" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b1123aea-c165-4272-93e7-871c6def0e16" name="all-inkl" url="http://finn-korte.de">
+        <fileTransfer host="finn-korte.de" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
