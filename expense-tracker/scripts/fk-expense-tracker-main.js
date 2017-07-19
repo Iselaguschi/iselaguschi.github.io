@@ -130,6 +130,7 @@
     }
 
     app.getAccountData = function() {
+        console.log("refresh");
         app.selectedAccounts = localStorage.selectedAccounts;
         if (app.selectedAccounts) {
             app.selectedAccounts = JSON.parse(app.selectedAccounts);
